@@ -9,7 +9,7 @@ set( APP_EXECUTABLE main )
 
 include_directories( inc )
 
-ADD_EXECUTABLE(main "src/main.cpp" "src/BankAccount.cpp")
+ADD_EXECUTABLE(main "src/main.cpp" "src/BankAccount.cpp" "inc/BankAccount.h")
 
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR})
 
